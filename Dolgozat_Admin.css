@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Monda', sans-serif;
+}
+
+
+.content-table {
+    text-align: left;
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 0.9em;
+    min-height: 400px;
+    max-width: 1000px;
+    }
+
+table {
+    margin: auto;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+.content-table thead tr{
+    background-color: #72358C;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th, .content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #72358C;
+}
+
+img#jov {
+    width: 25px;
+    height: 25px;
+    text-decoration: none;
+}
+
+img#vissz {
+    width: 25px;
+    height: 25px;
+    text-decoration: none;
+}
+
+a#jov, a#vissz:hover {
+    background-color: transparent;
+}
+
+
+.contact-section {
+    background: url(IOK-Hatter.jpg) no-repeat center;
+    background-size: cover;
+    margin-top: 100px;
+    padding: 40px 0;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    min-width: 100%;
+    min-height: 100%;
+    text-align: center;
+}
+
+.contact-section h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.contact-section p {
+    background-color: white;
+    display: inline-block;
+    margin-top: 15px;
+    text-align: center;
+    color: black;
+    font-weight: 750;
+}
+.contact-section a {
+    text-align: center;
+    color: #460D5F;
+}
+
+.border {
+    width: 100px;
+    height: 10px;
+    background: #72358C;
+    margin: 40px auto;
+}
+
+.contact-form {
+    background: #72358C;
+    text-align: center;
+    height: 525px;
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.contact-form-text {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: white;
+    padding: 20px 40px;
+    outline: none;
+    color: black; 
+    transition: 0.5s;
+}
+
+textarea.contact-form-text {
+    resize: none;
+    height: 120px;
+}
+
+p.kiterj {
+    font-size: 15px;
+    margin-top: -5px;
+    margin-bottom: 12.5px;
+    color: black;
+}
+
+.contact-form-btn {
+    border: 0;
+    background: #460D5F;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-form-btn:hover {
+    background: #B184C5;
+}
+
+.contact-form a {
+    color: white;
+    float: left;
+}
+

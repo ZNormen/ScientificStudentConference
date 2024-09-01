@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Monda', sans-serif;
+}
+
+.CountdownContainer {
+    position: absolute;
+    top: 135px;
+    left: 100px;
+    right: 100px;
+    bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 50px 50px rgba(0,0,0,0.5),
+                0 0 0 100px rgba(0,0,0,.1);
+}
+
+.CountdownContainer h2 {
+    background: #72358C;
+    padding: 15px;
+    text-align: center;
+    font-style: 10em;
+    line-height: 0.7em;
+    color: #ffffff;
+    margin-top: -80px;
+}
+
+.countdown {
+    display: flex;
+    margin-top: 50px;
+}
+
+.countdown div {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.countdown div:before{
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 100%;
+    height: 35px;
+    background: #72358C;
+    color: #fff;
+    font-size: 0.35em;
+    line-height: 35px;
+    font-weight: 300;
+}
+
+.countdown #day:before{
+    content: 'Nap';
+}
+.countdown #hour:before{
+    content: 'Óra';
+}
+.countdown #minute:before{
+    content: 'Perc';
+}
+.countdown #second:before{
+    content: 'Másodperc';
+}
+
+
+.btns {
+    margin-top: 100px;
+    display: inline-block;
+}
+
+.btns a:link, a:visited {
+    margin: 15px;
+    background-color: #72358C;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.btns a:hover, a:active {
+    background-color: #B184C5;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .CountdownContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: none;
+    }
+
+    .CountdownContainer h2 {
+        background: #72358C;
+        padding: 15px;
+        text-align: center;
+        font-style: 10em;
+        line-height: 1.4em;
+        color: #ffffff;
+        margin-top: -80px;
+        flex-direction: column;
+    }
+
+    .countdown div {
+        position: relative;
+        width: 75px;
+        height: 75px;
+        line-height: 100px;
+        text-align: center;
+        background: #333;
+        color: #fff;
+        margin: 0 7px;
+        font-size: 2em;
+        font-weight: 500;
+    }
+
+    .countdown div:before{
+        content: '';
+        position: absolute;
+        bottom: -30px;
+        left: 0;
+        width: 100%;
+        height: 20px;
+        font-size: 0.40em;
+        line-height: 17px;
+        font-weight: 150;
+    }
+
+    .btns {
+        display: inline-flex;
+        margin: 30;
+    }
+}

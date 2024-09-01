@@ -1,0 +1,9 @@
+document.getElementById("RoleSelect").onchange = function() {
+    document.getElementById("PositionSelect").setAttribute("disabled", "disabled");
+    if(this.value == "Előadó") {
+        document.getElementById("PositionSelect").removeAttribute("disabled");
+    }
+    else {
+        document.getElementById("PositionSelect").value = "";
+    }
+}
