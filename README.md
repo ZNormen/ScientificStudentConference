@@ -33,3 +33,4 @@ When signing up/registering, you may choose two types of users: Presenter and Gu
 
 - Change language from Hungarian to English for better understanding
 - Try to add the DB to the files for others to access
+- organize files into folders for more clarity
