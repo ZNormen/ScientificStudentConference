@@ -1,4 +1,4 @@
-var countDownDate = new Date("May 27, 2022 12:11:00").getTime();
+var countDownDate = new Date("May 27, 2026 12:00:00").getTime();
 var h2 = document.getElementById("jelentkezz");
 
 var x = setInterval(function() {
