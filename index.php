@@ -29,16 +29,16 @@
     $mail->Port = "587";
 
     //Set gmail username
-    $mail->Username = "zorgonormen@gmail.com";
+    $mail->Username = "<email>";
 
     //Set gmail password
-    $mail->Password = "ImgwU2LeLe";
+    $mail->Password = "<pass>";
 
     //Set email subject
     $mail->Subject = "Teszt";
 
     //Set sender email
-    $mail->setFrom("zorgonormen@gmail.com");
+    $mail->setFrom("<email>");
     
     /*$mail->isHTML(true);
 
